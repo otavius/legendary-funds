@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "budget-project"
+version = "0.1.0"
+description = ""
+authors = ["otavius <developer.otavius@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.2"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
